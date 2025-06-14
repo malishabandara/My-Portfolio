@@ -84,6 +84,7 @@ export const workData = [
     title: "Fitness Mobile App",
     description: "Mobile App",
     bgImage: "/work-1.png",
+    images: ["/work-1.png", "/work-2.png", "/work-3.png", "/work-4.png"],
     category: "Mobile Development",
     technologies: ["React Native", "Firebase", "Redux"],
     details:
@@ -96,6 +97,7 @@ export const workData = [
     title: "Health Center",
     description: "Web Application",
     bgImage: "/work-2.png",
+    images: ["/work-2.png", "/work-1.png", "/work-4.png", "/work-3.png"],
     category: "Web Development",
     technologies: ["React", "Node.js", "MongoDB"],
     details:
@@ -108,6 +110,7 @@ export const workData = [
     title: "Photography Portfolio",
     description: "Web Design",
     bgImage: "/work-3.png",
+    images: ["/work-3.png", "/work-4.png", "/work-1.png", "/work-2.png"],
     category: "UI/UX Design",
     technologies: ["Next.js", "Tailwind CSS", "Framer Motion"],
     details:
@@ -120,6 +123,7 @@ export const workData = [
     title: "Garbage Detection System",
     description: "AI Research",
     bgImage: "/work-4.png",
+    images: ["/work-4.png", "/work-3.png", "/work-2.png", "/work-1.png"],
     category: "Machine Learning",
     technologies: ["Python", "TensorFlow", "OpenCV"],
     details:
@@ -132,6 +136,7 @@ export const workData = [
     title: "E-Commerce Platform",
     description: "Full Stack App",
     bgImage: "/work-1.png",
+    images: ["/work-1.png", "/work-3.png", "/work-4.png", "/work-2.png"],
     category: "Web Development",
     technologies: ["Next.js", "Stripe", "PostgreSQL"],
     details:
@@ -144,6 +149,7 @@ export const workData = [
     title: "Task Management App",
     description: "Productivity Tool",
     bgImage: "/work-2.png",
+    images: ["/work-2.png", "/work-4.png", "/work-1.png", "/work-3.png"],
     category: "Mobile Development",
     technologies: ["React Native", "Redux", "SQLite"],
     details:
@@ -156,6 +162,7 @@ export const workData = [
     title: "Social Media Dashboard",
     description: "Analytics Platform",
     bgImage: "/work-3.png",
+    images: ["/work-3.png", "/work-1.png", "/work-2.png", "/work-4.png"],
     category: "Web Development",
     technologies: ["React", "D3.js", "Node.js"],
     details:
