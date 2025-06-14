@@ -80,24 +80,88 @@ export const assets = {
 
 export const workData = [
   {
+    id: 1,
     title: "Fitness Mobile App",
     description: "Mobile App",
     bgImage: "/work-1.png",
+    category: "Mobile Development",
+    technologies: ["React Native", "Firebase", "Redux"],
+    details:
+      "A comprehensive fitness tracking application with personalized workout plans, nutrition tracking, and social features. Built with React Native for cross-platform compatibility.",
+    liveUrl: "#",
+    githubUrl: "#",
   },
   {
+    id: 2,
     title: "Health Center",
     description: "Web Application",
     bgImage: "/work-2.png",
+    category: "Web Development",
+    technologies: ["React", "Node.js", "MongoDB"],
+    details:
+      "A complete healthcare management system featuring appointment booking, patient records management, and telemedicine capabilities. Designed to streamline medical operations.",
+    liveUrl: "#",
+    githubUrl: "#",
   },
   {
-    title: "Photography site",
+    id: 3,
+    title: "Photography Portfolio",
     description: "Web Design",
     bgImage: "/work-3.png",
+    category: "UI/UX Design",
+    technologies: ["Next.js", "Tailwind CSS", "Framer Motion"],
+    details:
+      "An elegant photography portfolio website with smooth animations, gallery management, and responsive design. Features advanced image optimization and lazy loading.",
+    liveUrl: "#",
+    githubUrl: "#",
   },
   {
-    title: "Garbage Detection & Classification Research",
-    description: "UI/UX Design",
+    id: 4,
+    title: "Garbage Detection System",
+    description: "AI Research",
     bgImage: "/work-4.png",
+    category: "Machine Learning",
+    technologies: ["Python", "TensorFlow", "OpenCV"],
+    details:
+      "An AI-powered waste classification system using computer vision to automatically detect and categorize different types of garbage for efficient recycling processes.",
+    liveUrl: "#",
+    githubUrl: "#",
+  },
+  {
+    id: 5,
+    title: "E-Commerce Platform",
+    description: "Full Stack App",
+    bgImage: "/work-1.png",
+    category: "Web Development",
+    technologies: ["Next.js", "Stripe", "PostgreSQL"],
+    details:
+      "A modern e-commerce platform with advanced features including real-time inventory management, secure payment processing, and admin dashboard with analytics.",
+    liveUrl: "#",
+    githubUrl: "#",
+  },
+  {
+    id: 6,
+    title: "Task Management App",
+    description: "Productivity Tool",
+    bgImage: "/work-2.png",
+    category: "Mobile Development",
+    technologies: ["React Native", "Redux", "SQLite"],
+    details:
+      "A powerful task management application with team collaboration features, deadline tracking, and productivity analytics. Includes offline functionality and data synchronization.",
+    liveUrl: "#",
+    githubUrl: "#",
+  },
+  {
+    id: 7,
+    title: "Social Media Dashboard",
+    description: "Analytics Platform",
+    bgImage: "/work-3.png",
+    category: "Web Development",
+    technologies: ["React", "D3.js", "Node.js"],
+    details:
+      "A comprehensive social media analytics dashboard providing insights across multiple platforms with real-time data visualization and automated reporting features.",
+    liveUrl: "#",
+    githubUrl: "#",
   },
 ];
 
@@ -113,12 +177,11 @@ export const serviceData = [
   {
     icon: assets.mobile_icon,
     title: "Database & Backend Solutions",
-    description:
-    [
-        "Database design and management (MySQL, PostgreSQL, Supabase)",
-        "API development and backend integration",
-        "Authentication systems (Google, Facebook, Firebase Auth)"
-      ],
+    description: [
+      "Database design and management (MySQL, PostgreSQL, Supabase)",
+      "API development and backend integration",
+      "Authentication systems (Google, Facebook, Firebase Auth)",
+    ],
     link: "",
   },
   {
@@ -131,12 +194,11 @@ export const serviceData = [
   {
     icon: assets.graphics_icon,
     title: "Graphics design",
-    description:
-    [
-        "Logo design, flyer design, and business cards",
-"Logo animation and motion graphics",
-"Social media posts and marketing materials"
-      ],
+    description: [
+      "Logo design, flyer design, and business cards",
+      "Logo animation and motion graphics",
+      "Social media posts and marketing materials",
+    ],
     link: "",
   },
 ];
