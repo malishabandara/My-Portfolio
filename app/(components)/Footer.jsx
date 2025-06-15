@@ -24,16 +24,17 @@ const Footer = ({ isDarkMode }) => {
       <div className="text-center sm:flex items-center justify-between border-t border-gray-400 mx-[10%] mt-12 py-6">
         <p>© 2025 Malisha Bandara. All rights reserved.</p>
         <ul className="flex items-center gap-10 justify-center mt-4 sm:mt-0">
-          <Link target="_blank" href="/about">
+          <a target="_blank" href="https://www.linkedin.com/in/malisha-hunukumbura/" rel="noopener noreferrer">
             LinkedIn
-          </Link>
-          <Link target="_blank" href="/about">
+          </a>
+          <a target="_blank" href="https://github.com/malishabandara" rel="noopener noreferrer">
             Github
-          </Link>
-          <Link target="_blank" href="/about">
+          </a>
+          <Link href="#">
             Facebook
           </Link>
         </ul>
+
       </div>
     </div>
   );
