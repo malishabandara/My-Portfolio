@@ -157,19 +157,6 @@ export const workData = [
     liveUrl: "#https://www.linkedin.com/feed/update/urn:li:activity:7324357885923074048/",
     githubUrl: "#https://github.com/nipunsw1999/NetDefender",
   },
-  {
-    id: 7,
-    title: "Social Media Dashboard",
-    description: "Analytics Platform",
-    bgImage: "/work-3.png",
-    images: ["/work-3.png", "/work-1.png", "/work-2.png", "/work-4.png"],
-    category: "Web Development",
-    technologies: ["React", "D3.js", "Node.js"],
-    details:
-      "A comprehensive social media analytics dashboard providing insights across multiple platforms with real-time data visualization and automated reporting features.",
-    liveUrl: "#",
-    githubUrl: "#",
-  },
 ];
 
 export const serviceData = [
