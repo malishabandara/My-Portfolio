@@ -146,14 +146,14 @@ export const workData = [
   },
   {
     id: 6,
-    title: "Task Management App",
+    title: "Automated Penetration Testing Tool",
     description: "Productivity Tool",
     bgImage: "/security.jpg",
     images: ["/security.jpg", "/security1.jpg", "/security2.jpg", "/security3.jpg"],
-    category: "Mobile Development",
-    technologies: ["React Native", "Redux", "SQLite"],
+    category: "Security Development",
+    technologies: ["Python"," Bash","H2O Wave","h2ogpte","YARA","LLaMA 3.3","Nmap","Metasploit"],
     details:
-      "A powerful task management application with team collaboration features, deadline tracking, and productivity analytics. Includes offline functionality and data synchronization.",
+      "We developed an Automated Penetration Testing Tool focused on real-time threat detection, malware scanning, and vulnerability assessment.",
     liveUrl: "#https://www.linkedin.com/feed/update/urn:li:activity:7324357885923074048/",
     githubUrl: "#https://github.com/nipunsw1999/NetDefender",
   },
@@ -227,7 +227,7 @@ export const infoList = [
     icon: assets.project_icon,
     iconDark: assets.project_icon_dark,
     title: "Projects",
-    description: "Built more than 5 projects",
+    description: "Built more than 7+ projects",
   },
 ];
 
